@@ -57,6 +57,9 @@ header.site nav { display: flex; gap: 16px; font-size: 15px; flex-wrap: wrap; ju
   background: var(--primary); color: var(--on-primary); font-weight: 600; text-decoration: none;
 }
 .badge.soon { opacity: 0.9; }
+/* Apple's official badge, self-hosted. Keep it at least 40px tall with clear space around it. */
+.store-badge { display: inline-block; margin-top: 28px; border-radius: 12px; line-height: 0; }
+.store-badge img { height: 60px; width: auto; }
 .fine { font-size: 14px; color: var(--muted); margin-top: 12px; }
 
 section { padding: 32px 0; }

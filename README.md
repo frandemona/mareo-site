@@ -10,4 +10,4 @@ The public site for Mareo, an iPhone app by Zerebro LLC: the landing page, priva
 
 It's plain HTML and CSS: no build step, cookies, analytics, or third-party requests. All links are relative, so the site works on the custom domain and at `https://frandemona.github.io/mareo-site/`, which redirects to it.
 
-After the App Store release, replace the "Coming soon" badge on both home pages with Apple's official "Download on the App Store" badge, linked to the app. If the privacy policy changes, update its "Last updated" date in both languages.
+Both home pages show Apple's official App Store badge (`assets/app-store-badge-{en,es}.svg`, self-hosted, from Apple's Marketing Tools). It links to `https://apps.apple.com/app/id6824806565`, which opens each visitor's own country store. If the privacy policy changes, update its "Last updated" date in both languages.
